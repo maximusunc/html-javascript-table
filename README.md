@@ -4,7 +4,7 @@ This application displays a table via React and Materialize. The table is dynami
 
 ## Getting Started from Command Line
 
-Clone: git clone https://github.com/maximusunc/html-javascript-table.git
-Change Directories: cd html-javascript-table
-Install Dependencies: yarn install
-Run: yarn start
+Clone: git clone https://github.com/maximusunc/html-javascript-table.git <br />
+Change Directories: cd html-javascript-table <br />
+Install Dependencies: yarn install <br />
+Run: yarn start <br />
