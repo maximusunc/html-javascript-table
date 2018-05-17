@@ -3,7 +3,7 @@ import React from "react";
 const TableRow = (props) =>
     <tr>
         <td>{props.first_name}</td>
-        <td>{props.last_name}</td>
+        <td>{props.last_name ? props.last_name : "Unknown"}</td>
         <td>{props.home}</td>
     </tr>;
 
