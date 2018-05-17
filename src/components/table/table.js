@@ -4,6 +4,7 @@ import TableRow from "../tableRow";
 
 class Table extends Component{
     state = {
+        // The table data is stored in state
         tableData: tableData
     };
 
@@ -19,6 +20,7 @@ class Table extends Component{
                 </thead>
 
                 <tbody>
+                {/* map through each table entry and send each one to the TableRow component to make new rows */}
                 {this.state.tableData.map(person => (
                     <TableRow
                         key={person.first_name}
